@@ -13,6 +13,12 @@ var cognome = prompt("Inserisci il tuo cognome");
 
 // 3. inserire cognome nell'array:
 cognomi.push(cognome);
-console.log(cognomi)
 
-// 4.
+// 4. ordinare alfabeticamente l'array:
+cognomi.sort();
+console.log(cognomi);
+
+// 5. stampare l'array;
+document.getElementById('listaNomi').innerHTML = cognomi;
+
+// 6. posizione "umana":
