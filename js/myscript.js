@@ -22,3 +22,13 @@ console.log(cognomi);
 document.getElementById('listaNomi').innerHTML = cognomi;
 
 // 6. posizione "umana":
+var trovato = false;
+var i = 0;
+while (i < cognomi.length && trovato == false) {
+    if (cognome == cognomi[i]) {
+        trovato = true;
+    }
+    i++;
+}
+
+console.log(i);
